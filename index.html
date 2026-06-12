@@ -4,270 +4,694 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Abuzar Khan | AI & Data Science Engineer</title>
-    <!-- Bootstrap CSS -->
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <!-- AOS Animation CSS -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Abuzar Khan | Data Scientist & AI Engineer</title>
+    <!-- Meta Description for SEO -->
+    <meta name="description"
+        content="Portfolio of Abuzar Khan - Data Scientist and AI Engineer specializing in Machine Learning, Deep Learning, NLP, and Generative AI.">
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="#home">Abuzar<span class="text-accent">.</span></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
-                <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+    <div class="app-container">
 
-    <!-- Hero Section -->
-    <section id="home" class="hero-section d-flex align-items-center">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-6" data-aos="fade-right">
-                    <h3>Hello, I'm</h3>
-                    <h1 class="display-4 font-weight-bold">Abuzar Khan</h1>
-                    <h3 class="subtitle">I am a <span id="typed-text"></span></h3>
-                    <div class="mt-4">
-                        <a href="Myresune-Abu.pdf" class="btn btn-primary btn-lg mr-3" target="_blank">Download
-                            Resume</a>
-                        <a href="#contact" class="btn btn-outline-light btn-lg">Contact Me</a>
-                    </div>
-                    <div class="social-icons mt-4">
-                        <a href="https://github.com/Khansahab2" target="_blank"><i class="fab fa-github"></i></a>
-                        <a href="https://www.linkedin.com/in/abuzar-khan-349683251/" target="_blank"><i
-                                class="fab fa-linkedin"></i></a>
-                        <a href="https://www.instagram.com/hi_abuzar_khan/profilecard/?igsh=MWZzcXR3NWYxc3lwOQ=="
-                            target="_blank"><i class="fab fa-instagram"></i></a>
-                    </div>
-                </div>
-                <div class="col-md-6 text-center" data-aos="fade-left">
-                    <div class="profile-img-container">
-                        <img src="profile.jpg" alt="Abuzar Khan" class="img-fluid profile-img">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+        <!-- Left Sticky Profile Sidebar -->
+        <aside class="profile-sidebar">
+            <div class="profile-sidebar-wrapper">
+                <div class="profile-card">
+                    <div>
+                        <!-- Profile Image wrapper -->
+                        <div class="profile-img-wrapper">
+                            <img id="profile-pic" src="WhatsApp Image 2026-06-10 at 12.07.51 AM.jpeg" alt="Abuzar Khan">
+                        </div>
 
-    <!-- About Section -->
-    <section id="about" class="section-padding">
-        <div class="container">
-            <h2 class="section-title text-center" data-aos="fade-up">About Me</h2>
-            <div class="row justify-content-center">
-                <div class="col-md-8 text-center" data-aos="fade-up" data-aos-delay="100">
-                    <p class="lead">
-                        Data Scientist with expertise in Python, SQL, and Machine Learning, specializing in data-driven
-                        decision-making.
-                        Proficient in building predictive models, performing advanced analytics, and extracting insights
-                        from structured and unstructured data.
-                        Skilled in deep learning, NLP, and computer vision. Passionate about leveraging AI to solve
-                        real-world challenges.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
+                        <!-- Profile Info -->
+                        <div class="profile-info">
+                            <h1>Abuzar Khan</h1>
+                            <span class="role">AI Engineer & Data Scientist</span>
+                        </div>
 
-    <!-- Skills Section -->
-    <section id="skills" class="section-padding">
-        <div class="container">
-            <h2 class="section-title text-center" data-aos="fade-up">Skills</h2>
-            <div class="row">
-                <!-- Languages -->
-                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="100">
-                    <div class="skill-category text-center">
-                        <div class="icon-box mb-3">
-                            <i class="fas fa-code"></i>
-                        </div>
-                        <h4 class="mb-3">Languages</h4>
-                        <div class="d-flex flex-wrap justify-content-center">
-                            <span class="skill-tag">Python</span>
-                            <span class="skill-tag">SQL</span>
-                            <span class="skill-tag">C++</span>
-                            <span class="skill-tag">HTML/CSS</span>
-                            <span class="skill-tag">JavaScript</span>
+                        <!-- Profile Bio Brief -->
+                        <div class="profile-bio">
+                            <ul>
+                                <li>Freelance AI/ML Engineer at NCCO.sa.</li>
+                                <li>B.Tech in Artificial Intelligence & Data Science.</li>
+                            </ul>
                         </div>
                     </div>
-                </div>
-                <!-- Data Science & AI -->
-                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="200">
-                    <div class="skill-category text-center">
-                        <div class="icon-box mb-3">
-                            <i class="fas fa-brain"></i>
+
+                    <div>
+                        <!-- Profile CTA Actions -->
+                        <div class="profile-actions">
+                            <a class="btn btn-primary tab-trigger" data-tab="contact" id="btn-talk"
+                                style="cursor:pointer;">
+                                <i class="fa-solid fa-paper-plane"></i> Let's Talk
+                            </a>
+                            <a href="My_Resume_2026 (2).pdf" class="btn btn-secondary" target="_blank" download
+                                id="btn-cv">
+                                <i class="fa-solid fa-download"></i> Download CV
+                            </a>
                         </div>
-                        <h4 class="mb-3">Data Science & AI</h4>
-                        <div class="d-flex flex-wrap justify-content-center">
-                            <span class="skill-tag">Machine Learning</span>
-                            <span class="skill-tag">Deep Learning</span>
-                            <span class="skill-tag">NLP</span>
-                            <span class="skill-tag">Computer Vision</span>
-                            <span class="skill-tag">Data Visualization</span>
-                        </div>
-                    </div>
-                </div>
-                <!-- Tools & Frameworks -->
-                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="300">
-                    <div class="skill-category text-center">
-                        <div class="icon-box mb-3">
-                            <i class="fas fa-tools"></i>
-                        </div>
-                        <h4 class="mb-3">Tools & Frameworks</h4>
-                        <div class="d-flex flex-wrap justify-content-center">
-                            <span class="skill-tag">TensorFlow</span>
-                            <span class="skill-tag">PyTorch</span>
-                            <span class="skill-tag">Scikit-learn</span>
-                            <span class="skill-tag">Pandas</span>
-                            <span class="skill-tag">Power BI</span>
-                            <span class="skill-tag">Flask</span>
-                            <span class="skill-tag">Git</span>
+
+                        <!-- Social Media Links -->
+                        <div class="profile-socials">
+                            <a href="https://github.com/Khansahab2" target="_blank" class="social-link"
+                                aria-label="GitHub" id="social-github">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/abuzar-khan-349683251/" target="_blank"
+                                class="social-link" aria-label="LinkedIn" id="social-linkedin">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://www.instagram.com/hi_abuzar_khan/profilecard/?igsh=MWZzcXR3NWYxc3lwOQ=="
+                                target="_blank" class="social-link" aria-label="Instagram" id="social-instagram">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </aside>
 
-    <!-- Experience Section -->
-    <section id="experience" class="section-padding bg-darker">
-        <div class="container">
-            <h2 class="section-title text-center" data-aos="fade-up">Experience</h2>
-            <div class="timeline">
-                <!-- Internship -->
-                <div class="timeline-item" data-aos="fade-up">
-                    <div class="timeline-content">
-                        <h4>Software Developer Intern</h4>
-                        <h5 class="text-accent">NRB Bearings Limited India</h5>
-                        <span class="date">Apr 2025 – Oct 2025</span>
-                        <ul>
-                            <li>Developed a GUI-based Tool Crib Management System using software engineering and
-                                database
-                                management skills.</li>
-                            <li>Built a web-based Kaizen Entry Dashboard leveraging frontend, backend, and data
-                                visualization skills.</li>
-                            <li>Applied AI and analytics skills to propose automation and optimization improvements in
-                                digital workflows.</li>
-                        </ul>
-                    </div>
-                </div>
+        <!-- Right Content Area -->
+        <main class="content-area">
+
+            <!-- Floating Navigation Pill Dock -->
+            <div class="nav-dock-container">
+                <nav class="nav-dock">
+                    <a class="nav-item active" data-tab="home" id="nav-home">
+                        <i class="fa-solid fa-house"></i>
+                        <span>Home</span>
+                    </a>
+                    <a class="nav-item" data-tab="projects" id="nav-projects">
+                        <i class="fa-solid fa-laptop-code"></i>
+                        <span>Projects</span>
+                    </a>
+                    <a class="nav-item" data-tab="experience" id="nav-experience">
+                        <i class="fa-solid fa-briefcase"></i>
+                        <span>Experience</span>
+                    </a>
+                    <a class="nav-item" data-tab="tools" id="nav-tools">
+                        <i class="fa-solid fa-screwdriver-wrench"></i>
+                        <span>Tools</span>
+                    </a>
+                    <a class="nav-item" data-tab="contact" id="nav-contact">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>Contact</span>
+                    </a>
+                </nav>
             </div>
-        </div>
-    </section>
+            <!-- Home Tab View -->
+            <section id="home" class="view-tab active animate-fade-in">
+                <div class="hero-section-content">
+                    <!-- Hero Section -->
+                    <div class="hero-wrapper">
+                        <h1 class="hero-title">
+                            <span class="hero-title-primary">AI ENGINEER</span>
+                            <span class="hero-title-secondary">& DATA SCIENTIST</span>
+                        </h1>
+                        <p class="hero-desc">Turning data into insights and ideas into intelligent systems.
+                            Building AI solutions that solve real-world problems at scale.</p>
+                    </div>
 
-    <!-- Projects Section -->
-    <section id="projects" class="section-padding">
-        <div class="container">
-            <h2 class="section-title text-center" data-aos="fade-up">Projects</h2>
-            <div class="row">
-                <!-- Project 1 -->
-                <div class="col-md-6 col-lg-6 mb-4" data-aos="fade-up">
-                    <div class="project-card">
-                        <div class="card-body">
-                            <h4 class="card-title">Credit Card Fraud Detection System</h4>
-                            <p class="tech-stack">Python, Flask, scikit-learn, Random Forest</p>
-                            <p class="card-text">Built a Flask-based web application with REST API for real-time credit
-                                card
-                                fraud detection using Random Forest classifier. Deployed on Render with CI/CD.</p>
-                            <a href="https://credit-card-fraud-detection-is6e.onrender.com/"
-                                class="btn btn-sm btn-outline-accent" target="_blank">View Project</a>
+                    <!-- Stats Row -->
+                    <div class="stats-row-v2">
+                        <div class="stat-item-v2">
+                            <h3>1</h3>
+                            <p>Years of<br>Experience</p>
+                        </div>
+                        <div class="stat-item-v2">
+                            <h3>+3</h3>
+                            <p>Projects<br>Completed</p>
+                        </div>
+                        <div class="stat-item-v2">
+                            <h3>+4</h3>
+                            <p>Technical<br>Certifications</p>
                         </div>
                     </div>
                 </div>
-                <!-- Project 2 -->
-                <div class="col-md-6 col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="100">
-                    <div class="project-card">
-                        <div class="card-body">
-                            <h4 class="card-title">E-Commerce BI Dashboard</h4>
-                            <p class="tech-stack">Power BI, SQL, DAX, Excel</p>
-                            <p class="card-text">Developed an interactive Power BI dashboard for e-commerce analytics
-                                providing key insights into sales, profit, customer trends, and payment modes.</p>
-                            <a href="https://app.powerbi.com/links/VyDmBQHgix?ctid=4398c2fc-05c1-4a0b-a312-c86b714cbc9a&pbi_source=linkShare&bookmarkGuid=fcd27546-c03b-49e9-8f07-fe49ce19b9ea"
-                                class="btn btn-sm btn-outline-accent" target="_blank">View Project</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Project 3 -->
-                <div class="col-md-6 col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="200">
-                    <div class="project-card">
-                        <div class="card-body">
-                            <h4 class="card-title">Real-Time Facial Expression Detection</h4>
-                            <p class="tech-stack">Python, OpenCV, TensorFlow/Keras</p>
-                            <p class="card-text">Developed a CNN-based model for classifying facial expressions in
-                                real-time
-                                from video streams using FER-2013 dataset.</p>
-                            <a href="#" class="btn btn-sm btn-outline-accent">View Project</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Project 4 -->
-                <div class="col-md-6 col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="300">
-                    <div class="project-card">
-                        <div class="card-body">
-                            <h4 class="card-title">NER for Product Data</h4>
-                            <p class="tech-stack">Python, spaCy, PyTorch, OpenCV</p>
-                            <p class="card-text">Automated entity recognition from product images to extract
-                                specifications
-                                including dimensions, weight, and voltage details.</p>
-                            <a href="#" class="btn btn-sm btn-outline-accent">View Project</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="section-padding bg-darker">
-        <div class="container">
-            <h2 class="section-title text-center" data-aos="fade-up">Contact Me</h2>
-            <div class="row justify-content-center">
-                <div class="col-md-8 text-center" data-aos="fade-up">
-                    <p class="mb-4">Feel free to reach out for collaborations or just a friendly hello!</p>
-                    <div class="contact-info mb-4">
-                        <p><i class="fas fa-phone-alt mr-2"></i> +91-8329847784</p>
-                        <p><i class="fas fa-envelope mr-2"></i> abuzarkhan.ip123@gmail.com</p>
+                <!-- Recent Projects Section Teaser -->
+                <div class="section-header">
+                    <h1 class="hero-title">
+                        <span class="hero-title-primary">Featured</span>
+                        <span class="hero-title-secondary">Projects</span>
+                    </h1>
+                    <a class="section-link tab-trigger" data-tab="projects" style="cursor: pointer;">
+                        See all <i class="fa-solid fa-arrow-right-long"></i>
+                    </a>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Project 1 (Credit Card Fraud Detection) -->
+                    <div class="project-card-v2">
+                        <div class="project-media-wrapper">
+                            <video src="Screen Recording 2026-06-10 012932.mp4" loop muted playsinline
+                                preload="metadata" id="video-fraud-teaser"></video>
+                            <div class="video-overlay-play">
+                                <i class="fa-solid fa-play"></i>
+                            </div>
+                        </div>
+                        <div class="project-info-v2">
+                            <div class="project-tags">
+                                <span class="tag">Python</span>
+                                <span class="tag">Flask</span>
+                                <span class="tag">Scikit-learn</span>
+                                <span class="tag">Random Forest</span>
+                                <span class="tag">XGBoost</span>
+                            </div>
+                            <h4>Credit Card Fraud Detection System</h4>
+                            <p>Developed a fraud detection model that analyzes transaction patterns and predicts
+                                potentially fraudulent activities in real time. Applied machine learning techniques,
+                                feature analysis, and performance optimization to improve detection reliability.</p>
+                            <div class="project-links">
+                                <a class="btn btn-secondary tab-trigger" data-tab="projects">Details</a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="social-icons">
-                        <a href="https://github.com/Khansahab2" target="_blank"><i class="fab fa-github"></i></a>
-                        <a href="https://www.linkedin.com/in/abuzar-khan-349683251/" target="_blank"><i
-                                class="fab fa-linkedin"></i></a>
-                        <a href="https://www.instagram.com/hi_abuzar_khan/profilecard/?igsh=MWZzcXR3NWYxc3lwOQ=="
-                            target="_blank"><i class="fab fa-instagram"></i></a>
+
+                    <!-- Project 2 (Facial Expression - with Video) -->
+                    <div class="project-card-v2">
+                        <div class="project-media-wrapper">
+                            <video src="facial_expression.Mp4" loop muted playsinline preload="metadata"
+                                id="video-face-teaser"></video>
+                            <div class="video-overlay-play">
+                                <i class="fa-solid fa-play"></i>
+                            </div>
+                        </div>
+                        <div class="project-info-v2">
+                            <div class="project-tags">
+                                <span class="tag">Python</span>
+                                <span class="tag">OpenCV</span>
+                                <span class="tag">TensorFlow</span>
+                                <span class="tag">Keras</span>
+                                <span class="tag">CNN</span>
+                            </div>
+                            <h4>Facial Expression Detection</h4>
+                            <p>Designed and deployed a real-time emotion recognition application using Convolutional
+                                Neural Networks (CNNs), TensorFlow, and OpenCV. The system analyzes live webcam feeds to
+                                accurately classify facial expressions, demonstrating expertise in computer vision, deep
+                                learning, and human-centered AI applications.</p>
+                            <div class="project-links">
+                                <a class="btn btn-secondary tab-trigger" data-tab="projects">Details</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
 
-    <!-- Footer -->
-    <footer class="text-center py-4">
-        <p>&copy; 2025 Abuzar Khan. All Rights Reserved.</p>
-    </footer>
+                <!-- Key Skills Teaser Section -->
+                <div class="section-header">
+                    <h1 class="hero-title">
+                        <span class="hero-title-primary">Core</span>
+                        <span class="hero-title-secondary">Tech Stack</span>
+                    </h1>
+                    <a class="section-link tab-trigger" data-tab="tools" style="cursor: pointer;">
+                        View all <i class="fa-solid fa-arrow-right-long"></i>
+                    </a>
+                </div>
+
+                <div class="tools-slider">
+                    <div class="tools-track">
+
+                        <div class="tool-card">
+                            <div class="tool-icon"><i class="fa-brands fa-python"></i></div>
+                            <div class="tool-info"><span>Python</span></div>
+                        </div>
+
+                        <div class="tool-card">
+                            <div class="tool-icon"><i class="fa-solid fa-database"></i></div>
+                            <div class="tool-info"><span>SQL</span></div>
+                        </div>
+
+                        <div class="tool-card">
+                            <div class="tool-icon"><i class="fa-solid fa-chart-line"></i></div>
+                            <div class="tool-info"><span>PyTorch</span></div>
+                        </div>
+
+                        <div class="tool-card">
+                            <div class="tool-icon"><i class="fa-solid fa-chart-simple"></i></div>
+                            <div class="tool-info"><span>Power BI</span></div>
+                        </div>
+
+                        <!-- Duplicate cards for seamless loop -->
+
+                        <div class="tool-card">
+                            <div class="tool-icon"><i class="fa-brands fa-python"></i></div>
+                            <div class="tool-info"><span>Python</span></div>
+                        </div>
+
+                        <div class="tool-card">
+                            <div class="tool-icon"><i class="fa-solid fa-database"></i></div>
+                            <div class="tool-info"><span>SQL</span></div>
+                        </div>
+
+                        <div class="tool-card">
+                            <div class="tool-icon"><i class="fa-solid fa-chart-line"></i></div>
+                            <div class="tool-info"><span>PyTorch</span></div>
+                        </div>
+
+                        <div class="tool-card">
+                            <div class="tool-icon"><i class="fa-solid fa-chart-simple"></i></div>
+                            <div class="tool-info"><span>Power BI</span></div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- Projects Tab View -->
+            <section id="projects" class="view-tab">
+                <h1 class="hero-title">
+                    <span class="hero-title-primary">All</span>
+                    <span class="hero-title-secondary">Project</span>
+                </h1>
+
+                <div class="projects-grid">
+                    <!-- Project 1 (Credit Card Fraud Detection) -->
+                    <div class="project-card-v2">
+                        <div class="project-media-wrapper">
+                            <video src="Screen Recording 2026-06-10 012932.mp4" loop muted playsinline
+                                preload="metadata" id="video-fraud-main"></video>
+                            <div class="video-overlay-play">
+                                <i class="fa-solid fa-play"></i>
+                            </div>
+                        </div>
+                        <div class="project-info-v2">
+                            <div class="project-tags">
+                                <span class="tag">Python</span>
+                                <span class="tag">Flask</span>
+                                <span class="tag">Scikit-learn</span>
+                                <span class="tag">Random Forest</span>
+                                <span class="tag">XGBoost</span>
+                            </div>
+                            <h4>Credit Card Fraud Detection System</h4>
+                            <p>Developed a fraud detection model that analyzes transaction patterns and predicts
+                                potentially fraudulent activities in real time. Applied machine learning techniques,
+                                feature analysis, and performance optimization to improve detection reliability.</p>
+                            <div class="project-links">
+                                <a href="https://credit-card-fraud-detection-is6e.onrender.com/" class="btn btn-primary"
+                                    target="_blank">
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i> Demo
+                                </a>
+                                <a href="https://github.com/Khansahab2" class="btn btn-secondary" target="_blank">
+                                    <i class="fa-brands fa-github"></i> GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 (Facial Expression - Video) -->
+                    <div class="project-card-v2">
+                        <div class="project-media-wrapper">
+                            <video src="facial_expression.Mp4" loop muted playsinline preload="metadata"
+                                id="video-face-main"></video>
+                            <div class="video-overlay-play">
+                                <i class="fa-solid fa-play"></i>
+                            </div>
+                        </div>
+                        <div class="project-info-v2">
+                            <div class="project-tags">
+                                <span class="tag">Python</span>
+                                <span class="tag">OpenCV</span>
+                                <span class="tag">TensorFlow</span>
+                                <span class="tag">Keras</span>
+                            </div>
+                            <h4>Real-Time Facial Expression Detection Model</h4>
+                            <p>Designed and deployed a real-time emotion recognition application using Convolutional
+                                Neural Networks (CNNs), TensorFlow, and OpenCV. The system analyzes live webcam feeds to
+                                accurately classify facial expressions, demonstrating expertise in computer vision, deep
+                                learning, and human-centered AI applications.</p>
+                            <div class="project-links">
+                                <a href="https://github.com/Khansahab2" class="btn btn-secondary" target="_blank">
+                                    <i class="fa-brands fa-github"></i> GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 (BI Dashboard) -->
+                    <div class="project-card-v2">
+                        <div class="project-media-wrapper">
+                            <video src="PowerBi_project_video.mp4" loop muted playsinline preload="metadata"
+                                id="video-face-main"></video>
+                            <div class="video-overlay-play">
+                                <i class="fa-solid fa-play"></i>
+                            </div>
+                        </div>
+                        <div class="project-info-v2">
+                            <div class="project-tags">
+                                <span class="tag">Power BI</span>
+                                <span class="tag">SQL Server</span>
+                                <span class="tag">DAX</span>
+                                <span class="tag">Excel</span>
+                            </div>
+                            <h4>E-Commerce Business Intelligence Dashboard</h4>
+                            <p>Developed an interactive Power BI dashboard for e-commerce analytics by writing SQL
+                                queries to extract and transform structured sales data from relational databases.
+                                Delivered insights on sales trends, profit margins, customer segmentation, and payment
+                                behavior; utilized by business stakeholders for data-driven decision-making and sales
+                                forecasting.</p>
+                            <div class="project-links">
+                                <a href="https://app.powerbi.com/links/VyDmBQHgix?ctid=4398c2fc-05c1-4a0b-a312-c86b714cbc9a&pbi_source=linkShare&bookmarkGuid=fcd27546-c03b-49e9-8f07-fe49ce19b9ea"
+                                    class="btn btn-primary" target="_blank">
+                                    <i class="fa-solid fa-chart-line"></i> View Report
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Experience Tab View -->
+            <section id="experience" class="view-tab">
+                <h1 class="hero-title">
+                    <span class="hero-title-primary">Work</span>
+                    <span class="hero-title-secondary">Experience</span>
+                </h1>
+
+                <div class="timeline-v2">
+                    <!-- Experience 1 NCCO.sa -->
+                    <div class="timeline-v2-item">
+                        <div class="timeline-v2-marker"></div>
+                        <div class="timeline-v2-header">
+                            <div class="timeline-v2-title">
+                                <h4>Freelance AI/ML Engineer</h4>
+                                <span class="company">NCCO.sa, Saudi Arabia (Remote)</span>
+                            </div>
+                            <span class="timeline-v2-date">March 2026 – Present</span>
+                        </div>
+                        <div class="timeline-v2-content">
+                            <ul>
+                                <li>Architecting an end-to-end internal web application featuring an LLM-based AI
+                                    chatbot with PDF Q&A, web search, and document assistance; translating business
+                                    requirements into production-ready ML solutions for a regulated organizational
+                                    environment.</li>
+                                <li>Designed and optimized RAG pipelines with prompt engineering strategies, reducing
+                                    hallucination rate and improving response relevance for domain-specific knowledge
+                                    base queries.</li>
+                                <li>Collaborated with business stakeholders to define success metrics, scope project
+                                    requirements, and communicate analytical findings through structured documentation
+                                    and demos.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Experience 2 NRB Bearings -->
+                    <div class="timeline-v2-item">
+                        <div class="timeline-v2-marker"></div>
+                        <div class="timeline-v2-header">
+                            <div class="timeline-v2-title">
+                                <h4>Software Developer Intern</h4>
+                                <span class="company">NRB Bearings Limited (On-site)</span>
+                            </div>
+                            <span class="timeline-v2-date">Apr – Oct 2025</span>
+                        </div>
+                        <div class="timeline-v2-content">
+                            <ul>
+                                <li>Developed a GUI-based Tool Crib Management System, writing SQL queries for data
+                                    extraction and transformation against an SQL Server database to support inventory
+                                    analytics.</li>
+                                <li>Built a web-based Kaizen Entry Dashboard with data visualization capabilities,
+                                    enabling business stakeholders to monitor operational KPIs and make data-driven
+                                    decisions.</li>
+                                <li>Proposed and documented automation improvements to digital workflows based on data
+                                    analysis, presenting recommendations to technical and non-technical audiences.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <h1 class="hero-title">
+                    <span class="hero-title-primary">Education</span>
+                </h1>
+
+                <div class="timeline-v2">
+                    <div class="timeline-v2-item">
+                        <div class="timeline-v2-marker"></div>
+                        <div class="timeline-v2-header">
+                            <div class="timeline-v2-title">
+                                <h4>Bachelor of Technology (B.Tech) – Artificial Intelligence & Data Science</h4>
+                                <span class="company">MIT, Aurangabad</span>
+                            </div>
+                            <span class="timeline-v2-date">2021 – 2025</span>
+                        </div>
+                    </div>
+
+                    <div class="timeline-v2-item">
+                        <div class="timeline-v2-marker"></div>
+                        <div class="timeline-v2-header">
+                            <div class="timeline-v2-title">
+                                <h4>Higher Secondary Education (HSC)</h4>
+                                <span class="company">Maulana Azad College of Arts and Science</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <h1 class="hero-title">
+                    <span class="hero-title-primary">Certifications &</span>
+                    <span class="hero-title-secondary">Achievements</span>
+                </h1>
+
+                <div class="timeline-v2">
+                    <div class="timeline-v2-item">
+                        <div class="timeline-v2-marker"></div>
+                        <div class="timeline-v2-header">
+                            <div class="timeline-v2-title">
+                                <h4>Participated in Mumbai Hack 2025</h4>
+                                <span class="company">Largest Agentic AI Hackathon</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-v2-item">
+                        <div class="timeline-v2-marker"></div>
+                        <div class="timeline-v2-header">
+                            <div class="timeline-v2-title">
+                                <h4>Career Essentials in Data Analysis</h4>
+                                <span class="company">Microsoft and LinkedIn</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-v2-item">
+                        <div class="timeline-v2-marker"></div>
+                        <div class="timeline-v2-header">
+                            <div class="timeline-v2-title">
+                                <h4>Data Analytics Job Simulation</h4>
+                                <span class="company">Deloitte Australia (via Forage)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-v2-item">
+                        <div class="timeline-v2-marker"></div>
+                        <div class="timeline-v2-header">
+                            <div class="timeline-v2-title">
+                                <h4>Internship Common Aptitude Test</h4>
+                                <span class="company">LABMATIC</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Tools Tab View -->
+            <section id="tools" class="view-tab">
+                <h1 class="hero-title">
+                    <span class="hero-title-primary">Skills &</span>
+                    <span class="hero-title-secondary">Tools</span>
+                </h1>
+
+                <!-- Machine Learning -->
+                <div class="tools-section-wrapper">
+                    <h4 class="tools-section-title">Machine Learning</h4>
+                    <div class="tools-grid">
+                        <div class="tool-card">
+                            <div class="tool-icon"><i class="fa-solid fa-circle-nodes"></i></div>
+                            <div class="tool-info"><span>Scikit-Learn</span></div>
+                        </div>
+                        <div class="tool-card">
+                            <div class="tool-icon"><i class="fa-solid fa-brain"></i></div>
+                            <div class="tool-info"><span>Random Forest</span></div>
+                        </div>
+                        <div class="tool-card">
+                            <div class="tool-icon"><i class="fa-solid fa-bolt"></i></div>
+                            <div class="tool-info"><span>XGBoost / LightGBM</span></div>
+                        </div>
+                        <div class="tool-card">
+                            <div class="tool-icon"><i class="fa-solid fa-sliders"></i></div>
+                            <div class="tool-info"><span>Feature Eng.</span></div>
+                        </div>
+                        <div class="tool-card">
+                            <div class="tool-icon"><i class="fa-solid fa-filter"></i></div>
+                            <div class="tool-info"><span>SMOTE / Imbalance</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Deep Learning & NLP -->
+                <div class="tools-section-wrapper">
+                    <h4 class="tools-section-title">Deep Learning & NLP</h4>
+                    <div class="tools-grid">
+                        <div class="tool-card">
+                            <div class="tool-icon"><i class="fa-solid fa-circle-dot"></i></div>
+                            <div class="tool-info"><span>TensorFlow / Keras</span></div>
+                        </div>
+                        <div class="tool-card">
+                            <div class="tool-icon"><i class="fa-solid fa-chart-line"></i></div>
+                            <div class="tool-info"><span>PyTorch</span></div>
+                        </div>
+                        <div class="tool-card">
+                            <div class="tool-icon"><i class="fa-solid fa-eye"></i></div>
+                            <div class="tool-info"><span>OpenCV</span></div>
+                        </div>
+                        <div class="tool-card">
+                            <div class="tool-icon"><i class="fa-solid fa-language"></i></div>
+                            <div class="tool-info"><span>spaCy / NLTK</span></div>
+                        </div>
+                        <div class="tool-card">
+                            <div class="tool-icon"><i class="fa-solid fa-network-wired"></i></div>
+                            <div class="tool-info"><span>Transformers / BERT</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gen AI -->
+                <div class="tools-section-wrapper">
+                    <h4 class="tools-section-title">Generative AI</h4>
+                    <div class="tools-grid">
+                        <div class="tool-card">
+                            <div class="tool-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+                            <div class="tool-info"><span>Llama / OpenAI APIs</span></div>
+                        </div>
+                        <div class="tool-card">
+                            <div class="tool-icon"><i class="fa-solid fa-gem"></i></div>
+                            <div class="tool-info"><span>Gemini 1.5</span></div>
+                        </div>
+                        <div class="tool-card">
+                            <div class="tool-icon"><i class="fa-solid fa-square-rss"></i></div>
+                            <div class="tool-info"><span>n8n Agents</span></div>
+                        </div>
+                        <div class="tool-card">
+                            <div class="tool-icon"><i class="fa-solid fa-cubes"></i></div>
+                            <div class="tool-info"><span>RAG Pipelines</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Data & Programming -->
+                <div class="tools-section-wrapper">
+                    <h4 class="tools-section-title">Data, Programming & MLOps</h4>
+                    <div class="tools-grid">
+                        <div class="tool-card">
+                            <div class="tool-icon"><i class="fa-brands fa-python"></i></div>
+                            <div class="tool-info"><span>Python</span></div>
+                        </div>
+                        <div class="tool-card">
+                            <div class="tool-icon"><i class="fa-solid fa-database"></i></div>
+                            <div class="tool-info"><span>SQL Server / SQL</span></div>
+                        </div>
+                        <div class="tool-card">
+                            <div class="tool-icon"><i class="fa-solid fa-chart-simple"></i></div>
+                            <div class="tool-info"><span>Power BI</span></div>
+                        </div>
+                        <div class="tool-card">
+                            <div class="tool-icon"><i class="fa-brands fa-docker"></i></div>
+                            <div class="tool-info"><span>Docker</span></div>
+                        </div>
+                        <div class="tool-card">
+                            <div class="tool-icon"><i class="fa-brands fa-git-alt"></i></div>
+                            <div class="tool-info"><span>Git / GitHub</span></div>
+                        </div>
+                        <div class="tool-card">
+                            <div class="tool-icon"><i class="fa-solid fa-server"></i></div>
+                            <div class="tool-info"><span>FastAPI / Flask</span></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Tab View -->
+            <section id="contact" class="view-tab">
+                <h1 class="hero-title">
+                    <span class="hero-title-primary">Let's Work</span>
+                    <span class="hero-title-secondary">Together</span>
+                </h1>
+
+                <div class="contact-container">
+                    <div class="contact-form-card">
+                        <form id="contact-form">
+                            <div class="form-group">
+                                <label for="form-name">Your Name</label>
+                                <input type="text" class="form-control" id="form-name" name="name"
+                                    placeholder="John Doe" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="form-email">Your Email</label>
+                                <input type="email" class="form-control" id="form-email" name="email"
+                                    placeholder="john@example.com" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="form-subject">Subject</label>
+                                <input type="text" class="form-control" id="form-subject" name="subject"
+                                    placeholder="Project collaboration" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="form-message">Message</label>
+                                <textarea class="form-control" id="form-message" name="message"
+                                    placeholder="Hello, I'd like to talk about a project..." required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary" id="btn-submit" style="width: 100%;">
+                                <i class="fa-solid fa-paper-plane"></i> Send Message
+                            </button>
+                        </form>
+                    </div>
+
+                    <div class="contact-details">
+                        <a href="mailto:abuzarkhan.ip123@gmail.com" class="contact-detail-card" id="detail-email">
+                            <div class="contact-detail-icon"><i class="fa-solid fa-envelope"></i></div>
+                            <div class="contact-detail-info">
+                                <h5>Email</h5>
+                                <p>abuzarkhan.ip123@gmail.com</p>
+                            </div>
+                        </a>
+                        <a href="tel:+918329847784" class="contact-detail-card" id="detail-phone">
+                            <div class="contact-detail-icon"><i class="fa-solid fa-phone"></i></div>
+                            <div class="contact-detail-info">
+                                <h5>Phone</h5>
+                                <p>+91-8329847784</p>
+                            </div>
+                        </a>
+                        <a href="https://www.linkedin.com/in/abuzar-khan-349683251/" target="_blank"
+                            class="contact-detail-card" id="detail-linkedin">
+                            <div class="contact-detail-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+                            <div class="contact-detail-info">
+                                <h5>LinkedIn</h5>
+                                <p>abuzar-khan</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Footer -->
+            <footer class="footer-v2">
+                <p>&copy; 2026 Abuzar Khan. All rights reserved.</p>
+                <div class="footer-v2-links">
+                    <a href="https://github.com/Khansahab2" target="_blank" id="footer-github">GitHub</a>
+                    <a href="https://www.linkedin.com/in/abuzar-khan-349683251/" target="_blank"
+                        id="footer-linkedin">LinkedIn</a>
+                    <a href="mailto:abuzarkhan.ip123@gmail.com" id="footer-email">Contact</a>
+                </div>
+            </footer>
+
+        </main>
+
+    </div>
 
     <!-- Scripts -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.4.4/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script src="script.js"></script>
 </body>
 
